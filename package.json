@@ -1,0 +1,24 @@
+{
+  "name": "tina-next-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^1.5.7",
+    "@next/mdx": "^9.3.0",
+    "@types/node": "^13.9.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "next": "9.3.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "styled-components": "^5.0.1",
+    "tinacms": "^0.16.0"
+  }
+}

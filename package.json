@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:tina": "node server.js",
     "build": "next build",
     "start": "next start"
   },
@@ -14,10 +15,18 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@tinacms/api-git": "^0.7.0",
+    "@tinacms/fields": "^0.7.0",
+    "@tinacms/form-builder": "^0.2.16",
+    "@tinacms/git-client": "^0.6.0",
+    "micro-cors": "^0.1.1",
     "moment": "^2.24.0",
     "next": "9.3.0",
+    "next-tinacms-json": "^0.3.5",
     "react": "16.13.0",
     "react-dom": "16.13.0",
+    "react-markdown": "^4.3.1",
+    "react-tinacms-inline": "^0.2.1",
     "styled-components": "^5.0.1",
     "tinacms": "^0.16.0"
   }

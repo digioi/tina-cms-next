@@ -21,7 +21,7 @@
     "@tinacms/git-client": "^0.6.0",
     "micro-cors": "^0.1.1",
     "moment": "^2.24.0",
-    "next": "9.3.0",
+    "next": "9.3.2",
     "next-tinacms-json": "^0.3.5",
     "react": "16.13.0",
     "react-dom": "16.13.0",
